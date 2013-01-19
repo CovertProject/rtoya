@@ -1,0 +1,8 @@
+Package: app
+Version: 1 
+Section: base 
+Priority: optional 
+Architecture: all 
+Depends: bash 
+Maintainer: ts@covertproject.com
+Description: My super cool package
