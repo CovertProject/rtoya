@@ -1,8 +1,8 @@
-Package: app
-Version: 1 
+Package: rt-app-code
+Version: PL001v1
 Section: base 
 Priority: optional 
 Architecture: all 
 Depends: bash 
 Maintainer: ts@covertproject.com
-Description: My super cool package
+Description: Rtoya app code
