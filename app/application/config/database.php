@@ -42,7 +42,7 @@ return array(
 	|
 	*/
 
-	'default' => 'mysql',
+	'default' => 'app_r',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -67,12 +67,21 @@ return array(
 			'prefix'   => '',
 		),
 
-		'mysql' => array(
+		'app_r' => array(
 			'driver'   => 'mysql',
 			'host'     => '127.0.0.1',
-			'database' => 'database',
-			'username' => 'root',
-			'password' => '',
+			'database' => 'rtoya',
+			'username' => 'app_r',
+			'password' => 'r34dm41n',
+			'charset'  => 'utf8',
+			'prefix'   => '',
+		),
+		'app_w' => array(
+			'driver'   => 'mysql',
+			'host'     => '127.0.0.1',
+			'database' => 'rtoya',
+			'username' => 'app_w',
+			'password' => 'wr1t3m41n',
 			'charset'  => 'utf8',
 			'prefix'   => '',
 		),

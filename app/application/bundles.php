@@ -35,6 +35,12 @@
 
 return array(
 
-	'docs' => array('handles' => 'docs'),
-
+    'docs' => array('handles' => 'docs'),
+	'base' => array('auto' => true),
+    'login' => array('handles' => 'login'),
+    'dashboard' => array(
+        'handles' => 'dashboard',
+        'location' => 'RT/dashboard',
+    ),
+    'profile' => array('handles' => 'profile'),
 );
